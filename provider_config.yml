@@ -6,7 +6,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.32.140:3308/mybatis_ssm?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://192.168.32.142:3308/mybatis_ssm?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123
   jpa:
@@ -51,7 +51,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.32.140:3308/mybatis_ssm?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://192.168.32.142:3308/mybatis_ssm?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123
   jpa:
@@ -95,7 +95,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.32.140:3308/mybatis_ssm?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://192.168.32.142:3308/mybatis_ssm?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123
   jpa:
