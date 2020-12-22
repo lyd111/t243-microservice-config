@@ -1,0 +1,31 @@
+﻿server:
+  port: 3001
+  context-path: /
+
+spring:
+  application:
+    name: microservice-zuul
+
+eureka:
+  instance:
+    instance-id: microservice-zuul:3001 
+    prefer-ip-address: true 
+  client:
+    service-url:
+     
+      defaultZone: http://eureka2001.liyingdong.com:2001/eureka/,http://eureka2002.liyingdong.com:2002/eureka/,http://eureka2003.liyingdong.com:2003/eureka/   
+
+zuul:
+  routes: 
+    studentServer.serviceId: microservice-student
+    studentServer.path: /studentServer/**
+  ignored-services: "*"
+  prefix: /liyingdong
+
+
+info:
+  groupId: com.liyingdong.springcloud
+  artifactId: microservice-zuul-3001
+  version: 1.0-SNAPSHOT
+  userName: http://www.liyingdong.com
+  phone: 123456
