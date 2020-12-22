@@ -124,7 +124,6 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 2000
-
 info:
   groupId: com.liwangwang.springcloud
   artifactId: microservice-student-provider-1006

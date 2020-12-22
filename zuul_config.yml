@@ -23,6 +23,7 @@ zuul:
   prefix: /liyingdong
 
 
+
 info:
   groupId: com.liyingdong.springcloud
   artifactId: microservice-zuul-3001
