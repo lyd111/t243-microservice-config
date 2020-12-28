@@ -37,7 +37,7 @@ hystrix:
             timeoutInMilliseconds: 2000
 
 info:
-  groupId: com.liwangwang.springcloud
+  groupId: com.liyingdong.springcloud
   artifactId: microservice-student-provider-1004
   version: 1.0-SNAPSHOT
   userName: http://www.liyingdong.com
@@ -81,7 +81,7 @@ hystrix:
             timeoutInMilliseconds: 2000
 
 info:
-  groupId: com.liwangwang.springcloud
+  groupId: com.liyingdong.springcloud
   artifactId: microservice-student-provider-1005
   version: 1.0-SNAPSHOT
   userName: http://www.liyingdong.com
@@ -126,7 +126,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 2000
 info:
-  groupId: com.liwangwang.springcloud
+  groupId: com.liyingdong.springcloud
   artifactId: microservice-student-provider-1006
   version: 1.0-SNAPSHOT
   userName: http://www.liyingdong.com
